@@ -1,0 +1,28 @@
+{
+	"appId": "com.moksh16.mobility",
+	"appName": "Career Planner",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"YouTubeDataApiKey": "AIzaSyAI_COKJOwkhkvYJvxkyuEK2tHoFFNL4YA",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 5000,
+			"launchAutoHide": false,
+			"splashFullScreen": true,
+			"splashImmersive": false,
+			"showSpinner": true,
+			"androidSpinnerStyle": "horizontal"
+		},
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	},
+	"PrivacyScreen": {
+		"enable": true
+	}
+}
